@@ -1,0 +1,41 @@
+const [invoiceData, setInvoiceData] = useState({
+    company: '',
+    customer: '',
+    items: [],
+    
+  });
+
+  const addItem = () => {
+    setInvoiceData({
+      ...invoiceData,
+      items: [...invoiceData.items, { description: '', quantity: 1, rate: 0, amount: 0 }],
+    });
+  };
+
+  const removeItem = (index) => {
+    const newItems = invoiceData.items.filter((item, i) => i !== index);
+    setInvoiceData({
+      ...invoiceData,
+      items: newItems,
+    });
+  };
+
+  const handleItemChange = (index, field, value) => {
+    const newItems = [...invoiceData.items];
+    newItems[index][field] = value;
+
+    if (field === 'quantity' || field === 'rate') {
+      newItems[index].amount = newItems[index].quantity * newItems[index].rate;
+    }
+
+    setInvoiceData({
+      ...invoiceData,
+      items: newItems,
+    });
+  };
+
+  const generateInvoice = () => {
+    // Here, you would generate a PDF using a library like 'jspdf' or 'react-pdf'
+    // Format the invoiceData appropriately for the PDF generation library
+    console.log('Generating invoice...', invoiceData);
+  };

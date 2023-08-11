@@ -1,0 +1,76 @@
+.bill-details {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.input-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    text-align: right;
+}
+
+.subtotal{
+    font-family: NeueHaasUnica,Helvetica,Arial,sans-serif;
+    color: #777;
+}
+
+.input-right {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-family: NeueHaasUnica,Helvetica,Arial,sans-serif;
+    color: #777;
+}
+
+/* input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+} */
+
+.add-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: #1ab133;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    font-size: 18px;
+    color: gray;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.total-container {
+    margin-top: 20px;
+}
+
+.balance-container{
+    font-family: NeueHaasUnica,Helvetica,Arial,sans-serif;
+    color: #777;
+    margin-top: 20px;
+}
+
+.input-group-all {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Color of the box */
+    padding: 5px;
+    border-radius: 4px;
+    justify-content: flex-end;
+    width: 150px;
+    margin-left: 10px;
+}

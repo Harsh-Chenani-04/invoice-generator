@@ -1,0 +1,106 @@
+.input-group-all {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Color of the box */
+    padding: 5px;
+    border-radius: 4px;
+    justify-content: flex-end;
+    width: 150px;
+}
+
+.input-group-all input {
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 4px;
+    height: 12px;
+    margin-left: 5px;
+    /* color: transparent; */
+    width: 100%;
+}
+
+.input-with-symbol {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Color of the box */
+    padding: 5px;
+    border-radius: 4px;
+    justify-content: flex-end;
+}
+
+.symbol-box {
+    background-color: #4caf50;
+    /* Color of the symbol box */
+    color: white;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 4px 0 0 4px;
+    margin-right: 5px;
+}
+
+.input-with-symbol input {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 0 4px 4px 0;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.heading-input {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+
+.input-group {
+    display: flex;
+    text-align: right;
+    height: auto;
+    margin-bottom: 10px;
+    font-family: NeueHaasUnica, Helvetica, Arial, sans-serif;
+    color: #777;
+}
+
+.input-group label {
+    flex-basis: 60%;
+    margin-right: 10px;
+
+}
+
+/* CustomerDetails.css */
+.customer-details {
+
+    /* border: 10px; */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    flex-basis: 60%;
+
+}

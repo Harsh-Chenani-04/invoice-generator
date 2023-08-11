@@ -1,0 +1,23 @@
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.left-side,
+.right-side {
+    flex-basis: 48%;
+    /* Adjust the width as needed */
+}
+
+.right-side {
+    /* background-color: #ffffff; */
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+}
+
+.left-side textarea {
+    width: 100%;
+    resize: vertical;
+}

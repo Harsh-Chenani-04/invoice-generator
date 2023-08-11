@@ -1,0 +1,68 @@
+.items-table-header {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute space evenly between input elements */
+    margin: 0 10px;
+    /* Add margins on both sides */
+    max-width: calc(100% - 20px);
+    overflow-x: hidden;
+    border-radius: 6px;
+}
+
+.input-field {
+    margin-right: 5px;
+}
+
+.amount,
+.quantity,
+.unit_cost,
+.name {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-family: NeueHaasUnica, Helvetica, Arial, sans-serif;
+}
+
+.amount {
+    max-width: 13%;
+}
+
+.unit_cost {
+    max-width: 8%;
+}
+
+.quantity {
+    max-width: 9%;
+}
+
+.name {
+    max-width: 70%;
+}
+
+.input-label {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #0b1122;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-item-button {
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #24b659;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 5px;
+    justify-content: flex-start;
+    /* Align content to the left */
+    display: flex;
+    margin-left: 11px;
+}

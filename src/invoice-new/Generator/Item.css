@@ -1,0 +1,58 @@
+/* Item.css */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    max-width: calc(100% - 20px);
+
+}
+
+
+.amount,
+.quantity,
+.unit-cost,
+.name {
+    flex-grow: 1;
+    /* background-color: rgb(247, 235, 219); */
+    border-radius: 6px;
+    border-color: rgb(182, 160, 133);
+}
+
+.amount {
+    width: 10%;
+    border: none;
+    text-align: center;
+    height: 25px;
+    font-size: 15px;
+
+}
+
+.unit-cost {
+    width: 7%;
+    height: 25px;
+    font-size: 15px;
+}
+
+.quantity {
+    width: 8%;
+    height: 25px;
+    font-size: 15px;
+}
+
+.name {
+    width: 75%;
+    height: 25px;
+    font-size: 15px;
+}
+
+.remove-button {
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.remove-button:hover {
+    color: #c00;
+}

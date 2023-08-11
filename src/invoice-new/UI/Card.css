@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 38px;
+    margin-bottom: 200px;
+}
+
+.card.first-card {
+    flex: 1;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 150px;
+    /* Add margin to create spacing between cards */
+}
+
+.card.another-card {
+    /* flex: 1; */
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 87px;
+    /* Add margin to create spacing between cards */
+}

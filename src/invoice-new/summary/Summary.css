@@ -1,0 +1,66 @@
+/* Summary.css */
+.summary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.download {
+    background-color: #058532;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 40px;  
+    padding: 5px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: not-allowed;
+    pointer-events: all !important;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 47px;
+    border-color: #059334;
+    margin-bottom: 30px;
+}
+
+
+
+.section.selected-currency {
+    color: #3d4c59;
+    margin: 5px 0 0;
+    padding: 10px 120px 0 0;
+    text-align: left;
+    margin-left: 17px;
+    margin-bottom: 21px;
+}
+  
+  
+.control-label {
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+    font-family: ColfaxWeb,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+  
+.invoiced-select select {
+    width: 170px; /* Adjust the width as needed */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555; /* Change the select text color */
+    background-color: #fff; /* Change the select background color */
+  }
+  
+.section.save-template a{
+    text-decoration: none; /* Remove underline */
+    margin-right: 150px;
+    color: green;
+}
+
+.section.my-invoices-btn a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(17, 17, 39); 
+    margin-right: 160px;
+}

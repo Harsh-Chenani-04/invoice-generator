@@ -1,0 +1,13 @@
+.left-side{
+    margin-left: 20px;
+    
+}
+
+.xyz{
+    margin-top: 20px;
+    justify-content: flex-start; /* Align content to the left */
+    display: flex; 
+    margin-bottom: 10px;
+    font-family: NeueHaasUnica,Helvetica,Arial,sans-serif;
+    color: #777;
+}
